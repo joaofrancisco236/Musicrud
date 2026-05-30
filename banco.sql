@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS music_crud;
+USE music_crud;
+
+CREATE TABLE musicas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    artista VARCHAR(255) NOT NULL,
+    album VARCHAR(255) NOT NULL
+);
